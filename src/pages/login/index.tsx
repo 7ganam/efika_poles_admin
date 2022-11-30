@@ -107,7 +107,7 @@ const schema = yup.object().shape({
 
 const defaultValues = {
   password: 'admin',
-  email: 'admin@electra-z.com'
+  email: 'admin@efika.com'
 }
 
 interface FormData {
@@ -195,10 +195,10 @@ const LoginPage = () => {
             </Box>
             <Alert icon={false} sx={{ py: 3, mb: 6, ...bgClasses.primaryLight, '& .MuiAlert-message': { p: 0 } }}>
               <Typography variant='caption' sx={{ mb: 2, display: 'block', color: 'primary.main' }}>
-                Admin: <strong>admin@electra-z.com</strong> / Pass: <strong>admin</strong>
+                Admin: <strong>admin@efika.com</strong> / Pass: <strong>admin</strong>
               </Typography>
               <Typography variant='caption' sx={{ display: 'block', color: 'primary.main' }}>
-                Client: <strong>client@electra-z.com</strong> / Pass: <strong>client</strong>
+                Client: <strong>client@efika.com</strong> / Pass: <strong>client</strong>
               </Typography>
             </Alert>
             <form noValidate autoComplete='off' onSubmit={handleSubmit(onSubmit)}>
@@ -215,7 +215,7 @@ const LoginPage = () => {
                       onBlur={onBlur}
                       onChange={onChange}
                       error={Boolean(errors.email)}
-                      placeholder='admin@electra-z.com'
+                      placeholder='admin@efika.com'
                     />
                   )}
                 />
