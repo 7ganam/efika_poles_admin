@@ -154,7 +154,7 @@ const LoginV1 = () => {
               </defs>
             </svg>
             <Typography variant='h6' sx={{ ml: 2, lineHeight: 1, fontWeight: 700, fontSize: '1.5rem !important' }}>
-              {'CNG'}
+              {'SSL'}
             </Typography>
           </Box>
           <Box sx={{ mb: 6 }}>

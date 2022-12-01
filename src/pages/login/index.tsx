@@ -186,7 +186,7 @@ const LoginPage = () => {
               <img src='/images/logo.png' alt='logo' width='35' height='30' />
 
               <Typography variant='h6' sx={{ ml: 2, lineHeight: 1, fontWeight: 700, fontSize: '1.5rem !important' }}>
-                {'CNG Admin Panel'}
+                {'SSL Admin Panel'}
               </Typography>
             </Box>
             <Box sx={{ mb: 6 }}>

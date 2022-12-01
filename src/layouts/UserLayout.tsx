@@ -35,7 +35,7 @@ const AppBrand = () => {
     <Box sx={{ display: 'flex', alignItems: 'center' }}>
       <img src='/images/logo.png' alt='logo' width='35' height='30' />
       <Typography variant='h6' sx={{ ml: 2 }}>
-        CNG ADMIN
+        SSL ADMIN
       </Typography>
     </Box>
   )

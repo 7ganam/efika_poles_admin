@@ -118,8 +118,8 @@ const App = (props: ExtendedAppProps) => {
     <Provider store={store}>
       <CacheProvider value={emotionCache}>
         <Head>
-          <title>{`CNG admin`}</title>
-          <meta name='description' content={`CNG admin.`} />
+          <title>{`SSL admin`}</title>
+          <meta name='description' content={`SSL admin.`} />
           <meta name='keywords' content='Material Design, MUI, Admin Template, React Admin Template' />
           <meta name='viewport' content='initial-scale=1, width=device-width' />
         </Head>

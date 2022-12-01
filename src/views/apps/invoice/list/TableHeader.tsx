@@ -55,7 +55,7 @@ const TableHeader = (props: TableHeaderProps) => {
           onChange={e => handleFilter(e.target.value)}
         />
 
-        <Link href='/apps/pole/add' passHref>
+        <Link href='/apps/admin/add' passHref>
           <Button sx={{ mb: 2 }} variant='contained'>
             Add new pole
           </Button>
