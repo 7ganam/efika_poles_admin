@@ -229,7 +229,7 @@ const defaultColumns = [
     flex: 0.15,
     minWidth: 125,
     field: 'lastMaintenanceDate',
-    headerName: 'Last Maintenance Date',
+    headerName: 'Location',
     renderCell: ({ row }: CellType) => <Typography variant='body2'>{row.location}</Typography>
   },
   {
